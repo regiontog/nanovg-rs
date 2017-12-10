@@ -5,6 +5,7 @@
 #include <OpenGL/glext.h>
 #include <GLUT/glut.h>
 #elif defined(_WIN32)
+#include <windows.h>
 #include <glad.h>
 #else
 #include <GL/gl.h>
